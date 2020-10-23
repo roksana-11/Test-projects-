@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Popping',sans-serif;
+
+
+}
+.conten{
+    max-width: 1250px;
+    
+    margin: auto;
+    padding: 0px 30px;
+    
+
+}
+.navbar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding:10px 0 ;
+    background: red;
+
+
+
+   
+}
+.navbar .content{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.navbar .menu-list{
+    display: inline-flex;
+}
+.navbar-list li a{
+    display: inline-flex;
+    
+}
+.menu-list li{
+    list-style: none;
+}
+.menu-list li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+
+}.banner{
+    height: 60vh;
+    background:url(./image9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about{
+    padding: 40px 0;
+
+}
+.about .title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.about p{
+    padding-top: 20px;
+    text-align: justify;
+}
